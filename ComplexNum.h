@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<vector>
 
 class ComplexNum {
 private:
@@ -22,3 +23,4 @@ public:
  
 	friend std::ostream& operator<<(std::ostream& os, const ComplexNum& num);
 };
+void bubbleSort(std::vector<ComplexNum>& v);
